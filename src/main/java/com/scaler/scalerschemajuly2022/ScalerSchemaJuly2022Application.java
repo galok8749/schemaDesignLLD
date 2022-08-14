@@ -15,3 +15,6 @@ public class ScalerSchemaJuly2022Application {
 // how to code the classes
 // MVC
 // M : Model : Entity in my system which are persisted in DB (a class that is going to be stored in database as well)
+
+// Hibernate ORM (object Relational Mapping)
+// It will automatically create SQL query for you(it does need to know DB type)
