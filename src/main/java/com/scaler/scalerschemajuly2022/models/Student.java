@@ -12,7 +12,7 @@ public class Student extends BaseModel {
     private String phoneNumber;
     private String password;
     // relation between student and module without relation attribute so delete StudentModule class
-    @ManyToMany
+    @ManyToMany(mappedBy = "enrolledStudents")
     private List<Module> enrolledModules;
 }
 // S : M
